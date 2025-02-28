@@ -1,4 +1,4 @@
-# ELVA-Embedded-LLM-Powered-Virtual-Assistant
+# ELVA-Embedded-Language-Model-and-Virtual-Assistant
 An Embedded Virtual Assistant implemented on esp32 as an assignment for Embedded Systems Design and Analysis course at the University of Guilan, Department of Computer Engineering, presented in Fall 2024.
 
 
