@@ -3,7 +3,7 @@ An Embedded Virtual Assistant implemented on esp32 as an assignment for Embedded
 
 
 # System Overview
-Elva is an embedded virtual assistant powered by a language model. This project aims to develop a small embedded system capable of listening, processing, and responding to human speech, functioning as a smart virtual assistant. Various techniques and technologies were utilized to build this system, including C and Python programming, pre-trained language models, text-to-speech (TTS) and speech-to-text (STT) models, as well as IoT and microcontroller integration.
+Elva is an embedded virtual assistant powered by a language model (basically a talking robot! :D). This project aims to develop a small embedded system capable of listening, processing, and responding to human speech, functioning as a smart virtual assistant. Various techniques and technologies were utilized to build this system, including C and Python programming, pre-trained language models, text-to-speech (TTS) and speech-to-text (STT) models, as well as IoT and microcontroller integration.
 
 
 # System Workflow
