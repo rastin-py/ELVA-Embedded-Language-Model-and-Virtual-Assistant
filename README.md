@@ -5,21 +5,8 @@ An Embedded Virtual Assistant implemented on esp32 as an assignment for Embedded
 # System Overview
 Elva is an embedded virtual assistant powered by a language model (basically a talking robot! :D). This project aims to develop a small embedded system capable of listening, processing, and responding to human speech, functioning as a smart virtual assistant. Various techniques and technologies were utilized to build this system, including C and Python programming, pre-trained large language models (LLM, speech-to-text (STT) and text-to-speech (TTS) models, as well as IoT and microcontroller integration.
 
-# System Architecture
-This system consists of two major parts. The platform and the node. While the platform is responsible for processing user input and generating outputs through several stages, the node records user's voice, sends it to platform, receives generated output and plays it on speaker.
-## The Platform
-The platform consists of three parts. Large language model (LLM), speech-to-text (STT) and text-to-speech (TTS).
-### Large Language Model
 
-### Speech to Text Model
-
-### Text to Speech Model
-
-## The Node
-sth
-
-
-# System Workflow
+## System Workflow
 Here's how the system works.
 1. The node records the user's voice.
 2. The node saves the recorded voice as a .wav file on the SD card.
@@ -31,6 +18,32 @@ Here's how the system works.
 8. The platform sends the output.mp3 file back to the node over the local network.
 9. The node receives and saves the output.mp3 file on the SD card.
 10. The node plays the output.mp3 file through the speaker.
+
+## System Architecture
+This system consists of two major parts. The platform and the node. While the platform is responsible for processing user input and generating outputs through several stages, the node records user's voice, sends it to platform, receives generated output and plays it on speaker.
+### The Platform
+The platform consists of three parts. Large language model (LLM), speech-to-text (STT) and text-to-speech (TTS).
+#### Large Language Model
+
+#### Speech to Text Model
+
+#### Text to Speech Model
+
+### The Node
+
+#### mcu
+
+#### recorder
+
+#### speaker
+
+#### sd card
+
+
+
+
+
+
 
 
 # Demonstration
