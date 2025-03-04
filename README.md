@@ -3,18 +3,35 @@ An Embedded Virtual Assistant implemented on esp32 as an assignment for Embedded
 
 
 # System Overview
-Elva is an embedded virtual assistant powered by a language model (basically a talking robot! :D). This project aims to develop a small embedded system capable of listening, processing, and responding to human speech, functioning as a smart virtual assistant. Various techniques and technologies were utilized to build this system, including C and Python programming, pre-trained language models, text-to-speech (TTS) and speech-to-text (STT) models, as well as IoT and microcontroller integration.
+Elva is an embedded virtual assistant powered by a language model (basically a talking robot! :D). This project aims to develop a small embedded system capable of listening, processing, and responding to human speech, functioning as a smart virtual assistant. Various techniques and technologies were utilized to build this system, including C and Python programming, pre-trained large language models (LLM, speech-to-text (STT) and text-to-speech (TTS) models, as well as IoT and microcontroller integration.
+
+# System Architecture
+This system consists of two major parts. The Platform and the Node.
+## The Platform
+The platform consists of three parts. Large language model (LLM), speech-to-text (STT) and text-to-speech (TTS).
+### Large Language Model
+
+### Speech to Text Model
+
+### Text to Speech Model
+
+## The Node
+sth
 
 
 # System Workflow
-sth
+Here's how the system works.
+1. The node records the user's voice.
+2. The node saves the recorded voice as a .wav file on the SD card.
+3. The node sends the input.wav file to the platform over the local network.
+4. The platform receives and saves the input.wav file.
+5. The platform converts the input.wav file to text using the Distil-Whisper STT model.
+6. The platform processes the transcribed text using the LLaMA 3.2:1B LLM and saves the generated response.
+7. The platform converts the response text to an .mp3 file using the Edge TTS model.
+8. The platform sends the output.mp3 file back to the node over the local network.
+9. The node receives and saves the output.mp3 file on the SD card.
+10. The node plays the output.mp3 file through the speaker.
 
-# System Architecture
-This system consist of two major parts. The Platform and the Node.
-## The Platform
-sth
-## The Node
-sth
 
 # Demonstration
 sth
