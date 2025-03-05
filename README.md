@@ -26,18 +26,27 @@ Here's how the system works.
 ## The Platform
 The platform consists of three parts. Large language model (LLM), speech-to-text (STT) and text-to-speech (TTS).
 ### Large Language Model
+The LLM responsible for generating answers is the [LLaMA 3.2:1B](https://huggingface.co/meta-llama/Llama-3.2-1B) model, trained by Meta.
 
 ### Speech to Text Model
+The STT model responsible for converting user's speech to text is the [Parler-TTS Mini](https://huggingface.co/parler-tts/parler-tts-mini-v1) model.
 
 ### Text to Speech Model
+The TTS model responsible for converting generated answers to audio files is the [Edge TTS](https://huggingface.co/spaces/innoai/Edge-TTS-Text-to-Speech) model.
 
 ## The Node
+The platform consists of four parts. The microcontroller (MCU), sound recorder, speaker and SD card.
+
 
 ### MCU
+The microcontroller responsible for input, output and data transmissions is an ESP32 WROOM-32U.
 
 ### Sound Recorder
+The sound recorder module which is used for recording user's voice is an I2S MEMS INMP441.
 
 ### Speaker
+ an [Adafruit I2S Stereo Decoder - UDA1334A](https://www.adafruit.com/product/3678).
+
 
 ### sd card
 
