@@ -9,7 +9,8 @@ Elva is an embedded virtual assistant powered by a language model (basically a t
 # System Architecture and Workflow
 This system consists of two major parts. The platform and the node. While the platform is responsible for processing user input and generating outputs through several stages, the node records user's voice, sends it to platform, receives generated output and plays it on speaker.
 
-![Frame 38](https://github.com/user-attachments/assets/68417b15-864f-4fee-a9ac-36d57085bab7)
+![Frame 38](https://github.com/user-attachments/assets/17bbe8d5-d428-4c4e-a8d1-4a880bf6a447)
+
 
 # System Overview
 
