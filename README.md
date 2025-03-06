@@ -21,7 +21,7 @@ Here's how the system works.
 7. The platform converts the response text to an .mp3 file using the Edge TTS model.
 8. The platform sends the output.mp3 file back to the node over the local network.
 9. The node receives and saves the output.mp3 file on the SD card.
-10. The node plays the output.mp3 file through the speaker.
+10. The node plays the output.mp3 file on speaker through the i2s stereo decoder.
 
 ## The Platform
 The platform consists of three parts. Large language model (LLM), speech-to-text (STT) and text-to-speech (TTS).
@@ -35,20 +35,31 @@ The STT model responsible for converting user's speech to text is the [Parler-TT
 The TTS model responsible for converting generated answers to audio files is the [Edge TTS](https://huggingface.co/spaces/innoai/Edge-TTS-Text-to-Speech) model.
 
 ## The Node
-The platform consists of four parts. The microcontroller (MCU), sound recorder, speaker and SD card.
-
+The node consists of four parts. The microcontroller (MCU), sound recorder, speaker and SD card.
 
 ### MCU
 The microcontroller responsible for input, output and data transmissions is an ESP32 WROOM-32U.
+![image](https://github.com/user-attachments/assets/8a7afb32-e783-4733-aa07-3c4196477602)
+
 
 ### Sound Recorder
 The sound recorder module which is used for recording user's voice is an I2S MEMS INMP441.
+![image](https://github.com/user-attachments/assets/5907bd88-85b9-4ac5-9add-234825dd9830)
 
-### Speaker
- an [Adafruit I2S Stereo Decoder - UDA1334A](https://www.adafruit.com/product/3678).
+
+![IMG_20250304_232344](https://github.com/user-attachments/assets/22589383-e088-44a5-a1cf-9f9475034f49)
+
+### Streao Decoder
+The stereo decoder module which is used for decoding the output.mp3 for speaker is an Adafruit I2S Stereo Decoder - UDA1334A.
+
+![image](https://github.com/user-attachments/assets/051d9a0c-c388-406a-a58f-0f2c20ce686d)
 
 
 ### sd card
+The stereo decoder module which is used for storing inputs and outputs is a 6 pin micro sd card reader.
+
+![image](https://github.com/user-attachments/assets/28c34459-0260-4136-bda2-964e2f64455a)
+
 
 
 
