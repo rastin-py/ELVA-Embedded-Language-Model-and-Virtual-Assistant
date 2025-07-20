@@ -63,14 +63,22 @@ The SD card module used for storing input and output files is a 6-pin micro SD c
 
 ![SD](https://github.com/user-attachments/assets/83326721-7cf7-466b-97e6-b79493da2bb5)
 
-
-
-
-
-
-
 # Demonstration
 
+## Video
+In this video I ask elva to introduce herself and tell me about her capabilities.
+You'll notice some delay in her response, this is because I don't have a powerful GPU.
 
+https://github.com/user-attachments/assets/3f235ed9-3f47-4f73-8132-50f54075d9ae
+
+## Picture
+Right now she's just a bunch of wires. One day, I might build a proper case and body for her :D
 
 ![IMG_20250304_232344](https://github.com/user-attachments/assets/22589383-e088-44a5-a1cf-9f9475034f49)
+
+# Future Developement Ideas
+* 📷 Integrate a Camera: Capture images and send them to the LLM for visual perception, enabling Elva to "see."
+* 😄 Add an LCD Display: Use an LCD to show Elva’s emotions, expressions, or interactive feedback visually.
+* 🖨️ 3D-Print a Custom Case: Design physical case to enhance appearance, portability, and protection.
+* 🧠 Fine-Tune LLM for Specialized Tasks: Customize Elva’s language model for tasks like database querying, RAG, or domain-specific interactions.
+* 🚀 Upgrade to a More Powerful LLM: Run more advanced models like Gemma once I have access to better GPU.
