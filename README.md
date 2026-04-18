@@ -82,3 +82,19 @@ Right now she's just a bunch of wires. One day, I might build a proper case and 
 * 🖨️ 3D-Print a Custom Case: Design physical case to enhance appearance, portability, and protection.
 * 🧠 Fine-Tune LLM for Specialized Tasks: Customize Elva’s language model for tasks like database querying, RAG, or domain-specific interactions.
 * 🚀 Upgrade to a More Powerful LLM: Run more advanced models like Gemma once I have access to better GPU.
+
+
+
+## Contributors & Responsibilities
+
+### [Mohammad Hossein Mahmoudi](https://github.com/Mohammadh-Mahmoudi)
+- **Hardware Integration & Circuit Design**
+- **Sensor Setup & Configuration**
+- **I/O & Communication Protocols**
+- **MCU Programming**
+
+### [Rastin Maleki](https://github.com/rastin-py)
+- **AI Model Integration**
+- **Platform Architecture & Design**
+- **API Development**
+- **MCU Programming**
