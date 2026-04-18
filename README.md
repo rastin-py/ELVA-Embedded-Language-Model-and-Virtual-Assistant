@@ -84,9 +84,10 @@ Right now she's just a bunch of wires. One day, I might build a proper case and 
 * 🚀 Upgrade to a More Powerful LLM: Run more advanced models like Gemma once I have access to better GPU.
 
 
+
 ## Contributors & Responsibilities
 
-### [MohammadHossein Mahmoudi](https://github.com/Mohammadh-Mahmoudi)
+### [Mohammad Hossein Mahmoudi](https://github.com/Mohammadh-Mahmoudi)
 - **Hardware Integration & Circuit Design**
 - **Sensor Setup & Configuration**
 - **I/O & Communication Protocols**
