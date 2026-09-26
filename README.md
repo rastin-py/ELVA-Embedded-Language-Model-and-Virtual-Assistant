@@ -1,5 +1,5 @@
 # ELVA-Embedded-Language-Model-and-Virtual-Assistant
-An rmbedded virtual assistant implemented on esp32 as an assignment for Embedded Systems Design and Analysis course at the University of Guilan, Department of Computer Engineering, presented in Fall 2024.
+An embedded virtual assistant implemented on esp32 as an assignment for Embedded Systems Design and Analysis course at the University of Guilan, Department of Computer Engineering, presented in Fall 2024.
 
 
 # System Overview
